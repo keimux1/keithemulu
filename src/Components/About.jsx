@@ -1,4 +1,5 @@
 import CallToAction from "./CallToAction";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
 
           <p className="mt-4">
             I come from an electrical Background though
-            have always been enthusiastic about web technologies and design.
+            have always been enthusiastic about web technologbagies and design.
           </p>
 
           <p className="mt-4">
@@ -39,6 +40,7 @@ const About = () => {
         </div>
       </div>
       <CallToAction/>
+      <Footer/>
     </div>
   );
 }
