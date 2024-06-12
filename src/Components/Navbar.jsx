@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex justify-center items-center px-6 max-md:h-16 md:px-20 md:py-2 bg-slate-700 fixed top-0 right-0 left-0 ">
+      <nav className="flex justify-center items-center px-6 max-md:h-14 md:px-20 md:py-2 bg-slate-700 fixed top-0 right-0 left-0 h-10">
         <div className="flex justify-between w-full relative">
           <NavLink to="/">
             <img className="resize-none" src="/EMULU KEITH Logo.png" alt="" />

@@ -9,7 +9,7 @@ const CallToAction = () => {
       <div className="text-base font-normal md:font-medium text-gray-300 text-center capitalize ">
         Feel Free To Reach Out and Lets Work Together
       </div>
-      <Link className="contactButton">
+      <Link to="/contact" className="contactButton">
         CONTACT ME
       </Link>
     </div>
