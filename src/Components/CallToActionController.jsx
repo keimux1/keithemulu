@@ -13,7 +13,7 @@ const CallToActionController = ({children}) => {
       setshowComponent(false) 
     } 
     
-  },[location])
+  },[location])  
   
   return (
     <div>

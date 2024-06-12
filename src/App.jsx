@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className='mt-20'>
+      <div className='mt-20 min-h-screen flex flex-col'>
         <Navbar />
 
         <Routes>
@@ -26,11 +26,12 @@ function App() {
           <Route path='/contact' element={<ContactMe />}></Route>
         </Routes>
 
-        <CallToActionController>
-          <CallToAction />
-        </CallToActionController>
-
-        <Footer />
+        <div className='mt-auto'>
+          <CallToActionController>
+            <CallToAction />
+          </CallToActionController>
+          <Footer />
+        </div>
       </div>
     </Router>
   )
