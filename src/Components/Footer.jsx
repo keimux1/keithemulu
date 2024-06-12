@@ -48,7 +48,7 @@ const Footer = () => {
 
         <div className="flex flex-1 flex-col items-center text-base capitalize text-slate-800 gap-4">
           <div className="font-bold">Go through my CV</div>
-          <div className="underline">Emulu Keith CV.pdf</div>
+          <Link to="/cv" className="underline">Emulu Keith CV.pdf</Link>
         </div>
 
         <div className="flex flex-1 flex-col items-center text-base  text-slate-800 gap-4">

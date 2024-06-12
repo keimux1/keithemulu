@@ -1,5 +1,3 @@
-import CallToAction from "./CallToAction";
-import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -39,8 +37,6 @@ const About = () => {
           </p>
         </div>
       </div>
-      <CallToAction/>
-      <Footer/>
     </div>
   );
 }

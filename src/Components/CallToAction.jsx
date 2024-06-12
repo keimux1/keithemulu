@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
-    <div className="flex gap-6 flex-col justify-center items-center px-2.5 py-16 font-bold bg-CallToAction ">
+    <div className="flex gap-6 flex-col justify-center items-center px-2.5 py-16 font-bold bg-CallToAction">
       <div className="text-xl font-bold text-amber-500 text-center">
         U HAVE MADE IT THIS FAR
       </div>
