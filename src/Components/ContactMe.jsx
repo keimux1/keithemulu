@@ -23,14 +23,14 @@ const ContactMe = () => {
         <div className='flex flex-col gap-2 items-center max-md:gap-4'>
           <div className='uppercase text-center text-amber-400 font-semibold text-lg'>PhoneNumber</div>
           <div className='flex flex-col gap-1 max-md:gap-4'>
-            <div className='flex'>
+            <Link to="+256776796152" className='flex'>
               <div>+256</div>
               <div>776796152</div>
-            </div>
-            <div className='flex'>
+            </Link>
+            <Link to="+2561760929" className='flex'>
               <div>+256</div>
               <div>751760929</div>
-            </div>
+            </Link>
           </div>
 
         </div>
