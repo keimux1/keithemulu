@@ -8,9 +8,9 @@ const About = () => {
           Emulu Keith
         </div>
         <div className="mt-10 px-2 w-full text-xl font-bold text-amber-500 max-md:max-w-full text-center">
-          UI/ UX DESIGNER / SOFTWARE DEVELOPER / ELECTRICIAN
+          UI/UX DESIGNER / SOFTWARE DEVELOPER / ELECTRICIAN
         </div>
-        <div className="mt-6 w-full text-lg w-full sm:text-justify p-8 2xl:w-[60rem] ">
+        <div className="mt-6 w-full text-lg sm:text-justify p-8 2xl:w-[60rem] ">
           <p>
             I’m a Product Designer and Web Developer passionate about creating
             user-centered experiences, I design websites and applications that blend
