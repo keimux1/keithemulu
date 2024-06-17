@@ -1,9 +1,9 @@
 {
-  "homepage": "https://keimux1.github.io/keithemulu",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://keimux1.github.io/keithemulu",
   "scripts": {
     "dev": "vite --host",
     "predeploy":"npm run build",
