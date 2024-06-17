@@ -1,5 +1,5 @@
 {
-  "homepage": "http://keimux1.github.io/keithemulu",
+  "homepage": "https://keimux1.github.io/keithemulu",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -41,11 +41,11 @@
   "main": "vite.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keimux1/portfolio.git"
+    "url": "git+https://github.com/keimux1/keithemulu.git"
   },
   "author": "keith Emulu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keimux1/portfolio/issues"
+    "url": "https://github.com/keimux1/keithemulu/issues"
   }
 }
