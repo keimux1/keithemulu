@@ -1,4 +1,4 @@
-import profilepic from "../../public/EmuluKeith.png";
+import profilepic from "../assets/EmuluKeith.png";
 
 const About = () => {
   return (

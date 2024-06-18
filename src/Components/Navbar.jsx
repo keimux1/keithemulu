@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../public/EMULUKEITHLogo.png"
+import logo from "../assets/EMULUKEITHLogo.png"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
