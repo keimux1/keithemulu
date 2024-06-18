@@ -1,4 +1,5 @@
 import profilepic from "../assets/EmuluKeith.png";
+import Laboremus from "./Laboremus";
 
 const About = () => {
   return (
@@ -38,7 +39,10 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <Laboremus/>
     </div>
+    
   );
 }
 
