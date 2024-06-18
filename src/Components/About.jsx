@@ -1,9 +1,10 @@
+import profilepic from "../../public/EmuluKeith.png";
 
 const About = () => {
   return (
     <div>
       <div className="flex flex-col items-center text-gray-300 md:px-16 lg:px-24">
-        <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48" src="../../public/EmuluKeith.png " alt="" />
+        <img className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48" src={profilepic} alt="emulukeith" />
         <div className="mt-2.5 text-4xl font-bold text">
           Emulu Keith
         </div>
