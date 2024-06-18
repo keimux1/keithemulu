@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import ContactMe from './components/ContactMe.jsx';
 import CallToActionController from './components/CallToActionController.jsx';
+import Refactory from './components/Refactory.jsx';
+import EmployeeReward from './components/EmployeeReward.jsx';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path='/cv' element={<Cv />}></Route>
           <Route path='/contact' element={<ContactMe />}></Route>
           <Route path='/laboremus' element={<Laboremus />}></Route>
+          <Route path='/refactory' element={<Refactory />}></Route>
+          <Route path='/employeeReward' element={<EmployeeReward/>}></Route>
         </Routes>
 
         <div className='mt-auto'>

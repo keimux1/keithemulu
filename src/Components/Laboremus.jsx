@@ -5,7 +5,7 @@ const Laboremus = () => {
     <div className='text-gray-300 mb-10'>
       <section aria-labelledby='laboremus-project-title' className="section-one text-gray-200">
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e85bc91cc0bdb546b5a0f0aaa90c2e6e91a7bcbb66ddc1987cb843f71c0aced?apiKey=cf78a5e822724851b7bba55553a58bb2&" alt="Admin Analytics Icon" className="aspect-[1.15] w-[82px]" />
-        <h1 id='laboremus-project-title' className="text-2xl font-extrabold"> An Admin Analytics Platform </h1>
+        <h1 id='laboremus-project-title' className="text-2xl text-nowrap text-center font-extrabold"> An Admin Analytics Platform </h1>
       </section>
 
       <section aria-labelledby='laboremus-intro' className="section">

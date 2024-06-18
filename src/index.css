@@ -26,6 +26,9 @@
 .subsection-h{
   @apply text-lg font-bold text-amber-500 capitalize mb-1
 } 
+.supersubsection-h{
+  @apply text-base font-bold text-amber-500 capitalize mb-1
+} 
 
 .section-p{
   @apply text-base capitalize text-justify
