@@ -12,6 +12,7 @@ import ContactMe from './components/ContactMe.jsx';
 import CallToActionController from './components/CallToActionController.jsx';
 import Refactory from './components/Refactory.jsx';
 import EmployeeReward from './components/EmployeeReward.jsx';
+import HrManagement from './components/HrManagement.jsx';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/laboremus' element={<Laboremus />}></Route>
           <Route path='/refactory' element={<Refactory />}></Route>
           <Route path='/employeeReward' element={<EmployeeReward/>}></Route>
+          <Route path='/hrManagement' element={<HrManagement/>}></Route>
         </Routes>
 
         <div className='mt-auto'>
