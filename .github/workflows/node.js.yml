@@ -25,4 +25,4 @@ jobs:
 
       - run: npm ci
 
-      - run: npm npm run deploy 
+      - run: npm run deploy 
