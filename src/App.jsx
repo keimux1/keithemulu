@@ -1,5 +1,4 @@
 import './App.css'
-import About from './components/About.jsx';
 import CallToAction from "./components/CallToAction";
 import Laboremus from './components/Laboremus.jsx';
 import Cv from './components/Cv.jsx';
@@ -13,6 +12,7 @@ import CallToActionController from './components/CallToActionController.jsx';
 import Refactory from './components/Refactory.jsx';
 import EmployeeReward from './components/EmployeeReward.jsx';
 import HrManagement from './components/HrManagement.jsx';
+import About from './components/About.jsx';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
         <Routes  basename={process.env.NODE_ENV === 'development' ? '/' : '/repo-name/'}>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/about' element={<About />}></Route>
+          <Route path='/about' element={<About/>}></Route>
           <Route path='/cv' element={<Cv />}></Route>
           <Route path='/contact' element={<ContactMe />}></Route>
           <Route path='/laboremus' element={<Laboremus />}></Route>
