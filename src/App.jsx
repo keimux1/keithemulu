@@ -24,7 +24,7 @@ function App() {
         <Navbar />
 
         <Routes  basename={process.env.NODE_ENV === 'development' ? '/' : '/repo-name/'}>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/keithemulu' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/cv' element={<Cv />}></Route>
           <Route path='/contact' element={<ContactMe />}></Route>
