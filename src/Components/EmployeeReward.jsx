@@ -150,10 +150,9 @@ const EmployeeReward = () => {
 
         <ul className='list-disc pl-8'>
           <li>Presentation Skills.</li>
-          <li>Team Work.</li>
+          <li>Information Architecture.</li>
           <li>Research Skills.</li>
-          <li>Patience.</li>
-          <li>Debugging.</li>
+          <li>Improved Design Skills.</li>
         </ul>
 
       </section>

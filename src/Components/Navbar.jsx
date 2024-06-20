@@ -22,14 +22,14 @@ const Navbar = () => {
               <div className="relative">
 
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 18L18 6M6 6L18 18" stroke="#FF9900" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M6 18L18 6M6 6L18 18" stroke="#FF9900" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
 
-                <div className="font-bold text-base text-gray-300 flex items-end bg-slate-700 rounded-b-lg justify-center absolute -bottom-[270px] -right-6 w-36 px-2 py-4 transition duration-500 ease-in-out">
+                <div className="font-bold text-base text-gray-300 flex items-end bg-slate-700 rounded-b-lg justify-center absolute -bottom-[250px] -right-6 w-36 px-2 py-4 transition duration-500 ease-in-out">
                   <ul className="flex flex-col gap-4 justify-center ">
                     <li className="relative">
                       <button className=" w-full">
-                        <NavLink className="NavButton" to="/">HOME</NavLink>
+                        <NavLink className="NavButton" to="/keithemulu">HOME</NavLink>
                       </button>
                     </li>
                     <li>

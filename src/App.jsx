@@ -13,6 +13,14 @@ import Refactory from './components/Refactory.jsx';
 import EmployeeReward from './components/EmployeeReward.jsx';
 import HrManagement from './components/HrManagement.jsx';
 import About from './components/About.jsx';
+import MtnMomo from './components/MtnMomo.jsx';
+import OnlineMobileStore from './components/OnlineMobileStore.jsx';
+import BookLibrary from './components/BookLibrary.jsx';
+import Slider from './components/Slider.jsx';
+import Rotation from './components/Rotation.jsx';
+import Rockline from './components/Rockline.jsx';
+import Wakelo from './components/Wakelo.jsx';
+import Barefoot from './components/Barefoot.jsx';
 
 
 function App() {
@@ -32,6 +40,14 @@ function App() {
           <Route path='/refactory' element={<Refactory />}></Route>
           <Route path='/employeeReward' element={<EmployeeReward/>}></Route>
           <Route path='/hrManagement' element={<HrManagement/>}></Route>
+          <Route path='/MtnMomo' element={<MtnMomo />}></Route>
+          <Route path='/OnlineMobileStore' element={<OnlineMobileStore />}></Route>
+          <Route path='/BookLibrary' element={<BookLibrary />}></Route>
+          <Route path='/Slider' element={<Slider />}></Route>
+          <Route path='/Rotation' element={<Rotation />}></Route>
+          <Route path='/Rockline' element={<Rockline/>}></Route>
+          <Route path='/Wakelo' element={<Wakelo />}></Route>
+          <Route path='/Barefoot' element={<Barefoot />}></Route>
         </Routes>
 
         <div className='mt-auto'>
