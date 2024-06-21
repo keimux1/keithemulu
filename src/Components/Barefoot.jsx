@@ -8,7 +8,7 @@ const Barefoot = () => {
   return (
     <div className='text-gray-300 mb-10'>
       <section aria-labelledby='Barefoot-project-title' className="section-one text-gray-200">
-        <h1 id='Barefoot-project-title' className="text-2xl text-nowrap text-center uppercase font-extrabold">Barefoot Express Redesign</h1>
+        <h1 id='Barefoot-project-title' className="text-2xl text-nowrap text-center uppercase font-extrabold">Barefoot Law Redesign</h1>
       </section>
 
       <section aria-labelledby='Barefoot-intro' className="section">
