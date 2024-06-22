@@ -11,11 +11,25 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex justify-center items-center px-6 max-md:h-14 md:px-20 md:py-2 bg-slate-700 fixed top-0 right-0 left-0 h-10">
-        <div className="flex justify-between w-full relative">
+      <nav className="flex justify-center items-center px-4 lg:px-20 md:py-2 md:max-lg:px-6 h-10 max-md:h-14 bg-slate-700 fixed top-0 right-0 left-0">
+        <div className="flex justify-between w-full">
           <NavLink to="/keithemulu">
             <img className="resize-none" src={logo} alt="Logo" />
           </NavLink>
+
+          <div className="max-md:hidden font-bold font-base text-gray-300 flex items-end justify-end">
+            <ul className="flex gap-6 justify-center items-center">
+              <li className="relative">
+                <NavLink className="NavButton" to="/designs">PROJECTS</NavLink>
+              </li>
+              <li className="relative">
+                <NavLink className="NavButton" to="/about">ABOUT</NavLink>
+              </li>
+              <li className="relative">
+                <NavLink className="NavButton" to="/contact">CONTACT ME</NavLink>
+              </li>
+            </ul>
+          </div>
 
           <button className="md:hidden flex items-center transition duration-500 ease-in-out" onClick={toggleMenu}>
             {openMenu ?
@@ -44,7 +58,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <div className="w-full">
-                      <NavLink className="NavButton" to="/contact">CONTACT ME</NavLink>
+                        <NavLink className="NavButton" to="/contact">CONTACT ME</NavLink>
                       </div>
                     </li>
                   </ul>
@@ -58,21 +72,6 @@ const Navbar = () => {
 
 
           </button>
-
-
-          <div className="max-md:hidden font-bold font-base text-gray-300 flex items-end justify-end">
-            <ul className="flex gap-6 justify-center items-center">
-              <li className="relative">
-                <NavLink className="NavButton" to="/designs">PROJECTS</NavLink>
-              </li>
-              <li className="relative">
-                <NavLink className="NavButton" to="/about">ABOUT</NavLink>
-              </li>
-              <li className="relative">
-                <NavLink className="NavButton" to="/contact">CONTACT ME</NavLink>
-              </li>
-            </ul>
-          </div>
 
 
         </div>

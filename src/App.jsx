@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className='mt-20 min-h-screen flex flex-col'>
+      <div className='mt-12 min-h-screen flex flex-col'>
         <Navbar />
 
         <Routes  basename={process.env.NODE_ENV === 'development' ? '/' : '/repo-name/'}>
