@@ -404,7 +404,7 @@ const Home = () => {
               </div>
             </Link>
 
-            <Link to="/Wakelo" className="overflow-hidden max-md:col-span-2 group gap-2 px-2 w-full capitalize bg-[#BFAB94] rounded-md text-stone-700 hover:bg-[#C69C6C] transition ease-in-out delay-150 duration-300">
+            <Link to="/Wakelo" className="overflow-hidden max-md:col-span-2 group gap-2 px-2 w-full capitalize bg-[#A5A2D3] rounded-md text-stone-700 hover:bg-[#8380ac] transition ease-in-out delay-150 duration-300">
               <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
                 Wakelo Express Redesign
               </div>
