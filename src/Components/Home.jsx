@@ -1,11 +1,23 @@
 import profile from "../assets/Keimux Moke Up.png";
 import { Link } from "react-router-dom";
+import streamlineSample from "../assets/streamline sample .png";
+import DockvilleSample from "../assets/Dockville  sample.png";
+import EmployeeRewardApp from "../assets/Employee Reward App.png";
+import MOMO from "../assets/MOMO App MokeUp.png";
+import OnlineLib from "../assets/Online Book Library Mokeup.png";
+import Slider from "../assets/Slider Moke Up.png";
+import HrManagement from "../assets/Hr Management MokeUp landing.png";
+import BareFoot from "../assets/BareFoot Moke Up.png";
+import Rotation from "../assets/Rotation Animation.png";
+import MobileStore from "../assets/Online Mobile Store Moke Up.png";
+import Rockline from "../assets/Rockline Moke Up.png";
+import Wakelo from "../assets/Wakelo MokeUp.png";
 
 const Home = () => {
   return (
     <div className="text-gray-300 ">
 
-      <section className="flex max-md:px-4 mb-8 items-center justify-center">
+      <section className="flex max-md:px-4  items-center justify-center">
         <div className="flex max-md:flex-col gap-10 justify-around max-md:items-center w-full max-w-6xl py-8 md:px-8">
           <div className="flex flex-col">
             <div className="text-xl text-nowrap capitalize font-bold">
@@ -254,37 +266,150 @@ const Home = () => {
 
           <div className="px-4 flex gap-4 max-md:flex-col max-md:gap-4">
 
-            <Link className="p-4 w-full capitalize bg-amber-200 rounded-md text-stone-700 hover:bg-amber-300">
-              <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                className="aspect-[1.16] w-[50px]"
-              />
-              <div className="mt-3.5 text-base font-bold  max-md:max-w-full">
-                Streamline Back Office Analytics Dashboard
+            <Link to="/laboremus" className="group flex flex-col relative min-h-48 gap-4 p-4 w-full capitalize bg-amber-200 rounded-md text-stone-700 hover:bg-amber-300">
+              <div className="bg-[#eee68bbe] group-hover:bg-[#fcd34dd5] absolute top-4 bottom-0 right-4 left-4">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1941b164d6e8f424137398ca911052cccf9a340b44596c2e04ec497e3605bcff?apiKey=cf78a5e822724851b7bba55553a58bb2&"
+                  className="aspect-[1.16] w-[50px]"
+                />
+                <div className="mt-3.5 text-base font-bold  max-md:max-w-full">
+                  Streamline Back Office Analytics Dashboard
+                </div>
+                <div className="mt-3.5 text-xs font-medium text-stone-500 group-hover:text-stone-700 max-md:max-w-full">
+                  The dashboard is meant to give real time analytical feedback to
+                  stakeholders to enable them make Data driven financial
+                  decisions.
+                </div>
               </div>
-              <div className="mt-3.5 text-xs font-medium text-stone-500 max-md:max-w-full">
-                The dashboard is meant to give real time analytical feedback to
-                stakeholders to enable them make Data driven financial
-                decisions.
+              <div>
+                <img className="w-full min-h-48 object-cover" src={streamlineSample} alt="streamlineSample" />
+              </div>
+
+            </Link>
+
+            <Link to="/refactory" className="group flex flex-col relative p-4 w-full capitalize rounded-md bg-zinc-200 hover:bg-zinc-400">
+              <div className="bg-[#e4e4e7d2] group-hover:bg-[#a1a1aadf] absolute top-4 bottom-0 right-4 left-4">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&"
+                  className="max-w-full aspect-[4.17] w-[177px]"
+                />
+                <div className="mt-3.5 text-base font-bold text-stone-700 max-md:max-w-full">
+                  Dockville
+                </div>
+                <div className="mt-3.5 text-xs font-medium text-stone-500 group-hover:text-stone-700  max-md:max-w-full">
+                  Dockville is a public car parking space, which receives about
+                  100 to 200 cars a day for
+                  <br />
+                  parking and operates a car Tire Clinic and renting car
+                  Batteries. For easy management and record keeping
+                </div>
+              </div>
+              <div>
+                <img className="w-full min-h-48 max-h-64 object-cover" src={DockvilleSample} alt="streamlineSample" />
               </div>
             </Link>
 
-            <Link className="p-4 w-full capitalize rounded-md bg-zinc-200 hover:bg-zinc-400">
-              <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a01e261289186602027e1b4dbc595332f474a27ff7edf78ec20946c6187e350?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                className="max-w-full aspect-[4.17] w-[177px]"
-              />
-              <div className="mt-3.5 text-base font-bold text-stone-700 max-md:max-w-full">
-                Dockville
+          </div>
+        </div>
+      </section>
+
+      <section className="flex max-md:px-4 mb-16 items-center justify-center ">
+        <div className="flex flex-col gap-4  w-full max-w-6xl md:px-8">
+          <div className="section-h">
+            Personal Projects
+          </div>
+
+          <div className="px-4 grid grid-cols-6 gap-4 max-md:grid-cols-2">
+
+            <Link to="/employeeReward" className="overflow-hidden group md:col-span-2 gap-2 px-2 w-full capitalize bg-[#E6CEAC] rounded-md text-stone-700 hover:bg-[#F3AA3D] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Employee Reward App
               </div>
-              <div className="mt-3.5 text-xs font-medium text-stone-500 max-md:max-w-full">
-                Dockville is a public car parking space, which receives about
-                100 to 200 cars a day for
-                <br />
-                parking and operates a car Tire Clinic and renting car
-                Batteries. For easy management and record keeping
+              <div className="flex justify-center py-4">
+                <img className="w-32 group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={EmployeeRewardApp} alt="EmployeeRewardApp" />
+              </div>
+            </Link>
+
+            <Link to="/MtnMomo" className="overflow-hidden group  gap-2 px-2 w-full capitalize bg-[#91B4C8] rounded-md text-stone-700 hover:bg-[#3380AC] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                MOMO APP redesign
+              </div>
+              <div className="flex justify-center py-4">
+                <img className="w-32 group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={MOMO} alt="EmployeeRewardApp" />
+              </div>
+            </Link>
+
+            <Link to="/BookLibrary" className="overflow-hidden group col-span-2 gap-2 px-2 w-full capitalize bg-[#81CCC5] rounded-md text-stone-700 hover:bg-[#00C6B4] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Online Book Library
+              </div>
+              <div className="flex justify-center p-4">
+                <img className="w-64 h-48 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={OnlineLib} alt="Online Book Library" />
+              </div>
+            </Link>
+
+            <Link to="/Slider" className="overflow-hidden group max-md:col-span-2 gap-2 px-2 w-full capitalize bg-[#FFFAFA] rounded-md text-stone-700 hover:bg-[#CE6D66] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Slider Animation In Figma
+              </div>
+              <div className="flex justify-center py-4">
+                <img className="w-52 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={Slider} alt="Slider" />
+              </div>
+            </Link>
+
+            <Link to="/hrManagement" className="overflow-hidden group max-md:col-span-2 md:col-span-3 gap-2 px-2 w-full capitalize bg-[#D1E3FC] rounded-md text-stone-700 hover:bg-[#89ADF2] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Hr Management System
+              </div>
+              <div className="flex justify-center p-4">
+                <img className="w-52 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={HrManagement} alt="Hr Management" />
+              </div>
+            </Link>
+
+            <Link to="/Barefoot" className="overflow-hidden group max-md:col-span-2 md:col-span-3  px-2 w-full capitalize bg-[#BFCE8D] rounded-md text-stone-700 hover:bg-[#AFD136] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                BareFoot Law Redesign
+              </div>
+              <div className="flex justify-center  mt-6">
+                <img className="max-md:w-72  object-fit group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={BareFoot} alt="Barefoot" />
+              </div>
+            </Link>
+
+            <Link to="/Rotation" className="overflow-hidden group  gap-2 px-2 w-full capitalize bg-[#E4FFC0] rounded-md text-stone-700 hover:bg-[#B7EC73] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Rotation Animation
+              </div>
+              <div className="flex justify-center py-4 mt-4">
+                <img className="w-32 group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={Rotation} alt="Rotation" />
+              </div>
+            </Link>
+
+            <Link to="/OnlineMobileStore" className="overflow-hidden group gap-2 px-2 w-full capitalize bg-[#BFAB94] rounded-md text-stone-700 hover:bg-[#C69C6C] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Online Mobile Store
+              </div>
+              <div className="flex justify-center p-4 mt-4">
+                <img className="w-52 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={MobileStore} alt="Online Mobile Store" />
+              </div>
+            </Link>
+
+            <Link to="/Rockline" className="overflow-hidden group max-md:col-span-2 md:col-span-3  px-2 w-full capitalize bg-[#92BCE3] rounded-md text-stone-700 hover:bg-[#78a5cf] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Rockline Peace Network Redesign
+              </div>
+              <div className="flex justify-center  mt-6">
+                <img className="max-md:w-72  object-fit group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={Rockline} alt="RPN" />
+              </div>
+            </Link>
+
+            <Link to="/Wakelo" className="overflow-hidden max-md:col-span-2 group gap-2 px-2 w-full capitalize bg-[#BFAB94] rounded-md text-stone-700 hover:bg-[#C69C6C] transition ease-in-out delay-150 duration-300">
+              <div className="mt-3.5 text-base font-bold text-center max-md:max-w-full">
+                Wakelo Express Redesign
+              </div>
+              <div className="flex justify-center p-4 mt-4">
+                <img className="w-52 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={Wakelo} alt="Wakelo" />
               </div>
             </Link>
 

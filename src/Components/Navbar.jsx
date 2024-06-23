@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex justify-center items-center px-4 lg:px-20 md:py-2 md:max-lg:px-6 h-10 max-md:h-14 bg-slate-700 fixed top-0 right-0 left-0">
+      <nav className="flex justify-center items-center px-4 lg:px-20 md:py-2 md:max-lg:px-6 h-10 max-md:h-14 bg-slate-700 fixed top-0 right-0 left-0 z-30">
         <div className="flex justify-between w-full">
           <NavLink to="/keithemulu">
             <img className="resize-none" src={logo} alt="Logo" />
