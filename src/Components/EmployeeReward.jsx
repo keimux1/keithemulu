@@ -78,7 +78,7 @@ const EmployeeReward = () => {
                 <div className="section-p">
                   To Show How the elements will probably appear on the Screen
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/AxbeDf5BOVuslclT7gC9Z0/Employee-Reward-points?node-id=187-5711&t=t60bSmcvZnpnvYFP-1">Link to Figma File</Link>
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center items-center'>
                     <img src={wireframe} alt="wireframe" />
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const EmployeeReward = () => {
                 <div className="section-p">
                   This showed the vivid sketch of were elements would Be Put on the Screen With Precision
 
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center items-center'>
                     <img src={lofi} alt="" />
                   </div>
                 </div>
@@ -104,7 +104,7 @@ const EmployeeReward = () => {
                 <div className="section-p">
                   A System The holds the Colors, Typography, Icons ,grids and more that would be used in the design process.
 
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center items-center'>
                     <img src={designSystem} alt="designSystem" />
                   </div>
                 </div>
@@ -117,7 +117,7 @@ const EmployeeReward = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/AxbeDf5BOVuslclT7gC9Z0/Employee-Reward-points?node-id=187-5711&t=t60bSmcvZnpnvYFP-1">Link to Figma Design</Link>
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="" />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const EmployeeReward = () => {
                 <div className="section-p">
                   That Sowed How the Product Would Look Like on a device
 
-                  <div className='flex justify-center'>
+                  <div className='flex justify-center items-center'>
                     <img src={mockup} alt="Mockups" />
                   </div>
                 </div>

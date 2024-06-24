@@ -73,7 +73,7 @@ const HrManagement = () => {
                 </h2>
                 <div className="section-p">
                   To Show How the elements will probably appear on the Screen during Ideation.
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={sketches} alt="sketches" />
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const HrManagement = () => {
                 <div className="section-p">
                   To Show How The content Will Flow On the Screen
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={flowChart} alt="flowChart" />
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const HrManagement = () => {
                 <div className="section-p">
                   To Show How the elements will probably appear on the Screen
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={wireframe} alt="wireframe" />
                   </div>
                 </div>
@@ -112,7 +112,7 @@ const HrManagement = () => {
                 <div className="section-p">
                   This showed the vivid sketch of were elements would Be Put on the Screen With Precision
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={lofi} alt="lofi" />
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const HrManagement = () => {
                 <div className="section-p">
                   A System The holds the Colors, Typography, Icons ,grids and more that would be used in the design process.
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={designSystem} alt="designSystem" />
                   </div>
                 </div>
@@ -138,20 +138,20 @@ const HrManagement = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/DQ7pdPvIDQhJFbYbvAPSSH/HR-PLATFORM-LANDING-PAGE?node-id=133-512&t=E2AZDJ1suaiSUf3z-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>
               </div>
 
-              <div>
+              <div >
                 <h2 className="subsection-h">
                   &#x21e2; Mockups
                 </h2>
                 <div className="section-p">
                   That Sowed How the Product Would Look Like on a device
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={mockup} alt="Mockups" />
                   </div>
                 </div>

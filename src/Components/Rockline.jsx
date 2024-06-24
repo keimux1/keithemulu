@@ -63,7 +63,7 @@ const Rockline = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like.
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/u7heN6REAPZlvAplgpfMaB/ROCKLINE-PEACE-NETWORK?node-id=0-1&t=AzQ7qY9atPosIYfb-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>

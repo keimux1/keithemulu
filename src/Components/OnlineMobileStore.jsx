@@ -63,7 +63,7 @@ const OnlineMobileStore = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/DUbcBq5ppwWCy7PUbaw0iN/Online-Mobile-Store?node-id=0-1&t=ndYYJ8b69yDHBbHQ-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const OnlineMobileStore = () => {
                 <div className="section-p">
                   That Sowed How the Product Would Look Like on a device
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={mockup} alt="Mockups" />
                   </div>
                 </div>

@@ -63,7 +63,7 @@ const Barefoot = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like.
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/yHVd4pSNYlYb3U96SOQori/Bare-foot-law?node-id=405-1133&t=TOxfRnMb0IrU7qR7-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>

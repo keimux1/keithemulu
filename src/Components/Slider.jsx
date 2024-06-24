@@ -63,7 +63,7 @@ const Slider = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like.
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/rQZUxB2q33g5wqOrmDPqGE/Motocycle-Comparison-Slider?node-id=0-1&t=T6goDWn0Nq3E48KN-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>

@@ -63,7 +63,7 @@ const MtnMomo = () => {
                 <div className="section-p">
                   A System The holds the Colors, Typography, Icons ,grids and more that would be used in the design process.
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={designSystem} alt="designSystem" />
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const MtnMomo = () => {
                 <div className="section-p">
                   This showed the Ready To Code Product , That Sowed How the Product Would Look Like
                   <Link target="_blank" className="flex py-4 whitespace-nowrap text-amber-900 hover:text-amber-700" to="https://www.figma.com/design/6bTXULAKoq5Vjfnhgv5JU9/MTN-MOMO-APP?node-id=114-816&t=UfrmHlF2Cxhn6YPK-1">Link to Figma Design</Link>
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={hifi} alt="hifi" />
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const MtnMomo = () => {
                 <div className="section-p">
                   That Sowed How the Product Would Look Like on a device
 
-                  <div>
+                  <div className='flex justify-center items-center'>
                     <img src={mockup} alt="Mockups" />
                   </div>
                 </div>
