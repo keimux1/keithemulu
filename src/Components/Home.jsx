@@ -18,7 +18,7 @@ const Home = () => {
     <div className="text-gray-300 ">
 
       <section className="flex max-md:px-4  items-center justify-center">
-        <div className="flex max-md:flex-col gap-10 justify-around max-md:items-center w-full max-w-6xl py-8 md:px-8">
+        <div className="flex max-md:flex-col gap-10 justify-around max-md:items-center w-full max-w-6xl  md:px-8">
           <div className="flex flex-col">
             <div className="text-xl text-nowrap capitalize font-bold">
               Hi, I’m Keith
@@ -56,7 +56,7 @@ const Home = () => {
             <div className="section-h">
               SKILLS
             </div>
-            <div className="flex max-md:gap-4 mt-5 capitalize max-md:grid max-md:grid-cols-3 md:max-lg:grid md:max-lg:grid-cols-6 lg:gap-3  ">
+            <div className="flex justify-around mt-5 capitalize max-md:grid max-md:grid-cols-4 ">
               <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
                 <img
                   loading="lazy"
@@ -78,15 +78,6 @@ const Home = () => {
               <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
                 <img
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/33aa8b1d563c61f537e57888bd8a0c0378d2a6d79e4f91f5b8f08fe781ca421e?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center aspect-[1.64] w-[33px]"
-                />
-                <div>Pug</div>
-              </div>
-
-              <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/31efbbf46de0cbc3589aef5ca973922312288ab646b33b10a4c627f0cf9c2352?apiKey=cf78a5e822724851b7bba55553a58bb2&"
                   className="self-center aspect-[1.75] w-[35px]"
                 />
@@ -102,14 +93,6 @@ const Home = () => {
                 <div>Tailwind css</div>
               </div>
 
-              <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/48ca82deefdd6dcb2d9b4b72b00dd558f8de739269e6cde55f35457fd37b1527?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center w-5 aspect-square"
-                />
-                <div>Bootstrap</div>
-              </div>
 
               <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
                 <img
@@ -123,10 +106,10 @@ const Home = () => {
               <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
                 <img
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f1a53ce7fab9f656b1ca355dc2f52650adc84badebffff4d5e6f919999566ee?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center aspect-[1.05] w-[21px]"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d32bdd4312abbd5407e34b9c5fe901c1cceea281de4f1767c9b6a7e89ba8b20?apiKey=cf78a5e822724851b7bba55553a58bb2&"
+                  className="self-center w-5 aspect-square"
                 />
-                <div>TypeScript</div>
+                <div>React</div>
               </div>
 
               <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
@@ -138,15 +121,6 @@ const Home = () => {
                 <div>Node Js</div>
               </div>
 
-              <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d32bdd4312abbd5407e34b9c5fe901c1cceea281de4f1767c9b6a7e89ba8b20?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center w-5 aspect-square"
-                />
-                <div>React</div>
-              </div>
-
               <div className="flex flex-col items-center p-0.5 whitespace-nowrap">
                 <img
                   loading="lazy"
@@ -154,33 +128,6 @@ const Home = () => {
                   className="self-center aspect-[0.46] w-[11px]"
                 />
                 <div>Mongo Db</div>
-              </div>
-
-              <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac5f154b0348a9f8ad4c3ad0ee7688ceca9477aaa1cb642da06608d3bbac2eb7?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center aspect-[1.05] w-[21px]"
-                />
-                <div>Scrum</div>
-              </div>
-
-              <div className="flex flex-col items-center p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/12166cc317587ad6ea1240ecdcff4bad607cdb817104cfa50c5c58d2a255fa24?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center w-6 aspect-[1.2]"
-                />
-                <div>git</div>
-              </div>
-
-              <div className="flex flex-col justify-center self-stretch p-0.5 my-auto whitespace-nowrap">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/d9a9a00de94e2a3245cb8011edd8a4ecfeb74d5a94c523e901a1b743bc47f67f?apiKey=cf78a5e822724851b7bba55553a58bb2&"
-                  className="self-center w-5 aspect-square"
-                />
-                <div>Adobe illustrator</div>
               </div>
 
             </div>
@@ -283,7 +230,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <img className="w-full min-h-48 object-cover" src={streamlineSample} alt="streamlineSample" />
+                <img className="w-full min-h-48 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={streamlineSample} alt="streamlineSample" />
               </div>
 
             </Link>
@@ -307,7 +254,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <img className="w-full min-h-48 max-h-64 object-cover" src={DockvilleSample} alt="streamlineSample" />
+                <img className="w-full min-h-48 max-h-64 object-cover group-hover:scale-110 group-hover:rotate-3 transition ease-in-out delay-150 duration-300" src={DockvilleSample} alt="streamlineSample" />
               </div>
             </Link>
 
