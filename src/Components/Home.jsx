@@ -50,7 +50,6 @@ const Home = () => {
       </section>
 
       <section className="flex max-md:px-4 mb-8 items-center justify-center">
-
         <div className="flex flex-col gap-10 justify-around max-md:items-center w-full max-w-6xl py-8 md:px-8">
           <div className="flex flex-col font-bold">
             <div className="section-h">
@@ -202,7 +201,6 @@ const Home = () => {
           </div>
 
         </div>
-
       </section>
 
       <section className="flex max-md:px-4 mb-8 items-center justify-center ">

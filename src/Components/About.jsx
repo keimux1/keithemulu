@@ -14,33 +14,25 @@ const About = () => {
         </div>
         <div className="mt-6 w-full text-lg sm:text-justify p-8 2xl:w-[60rem] ">
           <p>
-            I’m a Product Designer and Web Developer passionate about creating
-            user-centered experiences, I design websites and applications that blend
-            aesthetics with functionality.
+            I’m a Product Designer and Web Developer passionate about creating user-centered experiences.
+            I design websites and applications that seamlessly blend aesthetics with functionality.
           </p>
 
           <p className="mt-4">
-            I come from an electrical Background though
-            have always been enthusiastic about web technologbagies and design.
+            Though I come from an electrical engineering background, I have always been enthusiastic about web technologies and design. 
+            My passion for user interface design stems from its pivotal role in shaping the web's face.
           </p>
 
           <p className="mt-4">
-            I am passionate about user interface design because its a
-            corner Stone from which the web gets its face.
+          I specialize in front-end development, primarily working with JavaScript, HTML, and CSS, along with frameworks like React. 
+          Additionally, 
+          I have some experience in backend development, particularly with Node.js and MongoDB.
           </p>
 
-          <p className="mt-4">
-            I develop as well , with my main focus being the front end with JavaScript , Html and CSS with a few frameworks like
-            React as well.
-          </p>
-
-          <p className="mt-4">
-            I have also had a some experince in the backend particularly Node Js and Mongo Db.
-          </p>
         </div>
       </div>
     </div>
-    
+
   );
 }
 
