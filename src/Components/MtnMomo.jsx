@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import hifi from ".././assets/Mtn HighFidelity.png"
-import designSystem from ".././assets/Mtn Design Ststem.png"
-import mockup from ".././assets/MOMO REDESIGN MokeUps.png"
+import hifi from "../assets/MtnHighFidelity.png"
+import designSystem from "../assets/MtnDesignStstem.png"
+import mockup from "../assets/MOMOREDESIGNMokeUps.png"
 
 
 const MtnMomo = () => {

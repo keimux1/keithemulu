@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import userFlow from ".././assets/Packing App Flow Chart.png"
-import lofi from ".././assets/Dockville Low Fidelity.png"
-import hifi from ".././assets/Dockvile High Fidelity.png"
+import userFlow from "../assets/PackingAppFlowChart.png"
+import lofi from "../assets/DockvilleLowFidelity.png"
+import hifi from "../assets/DockvileHighFidelity.png"
 
 const Refactory = () => {
   return (

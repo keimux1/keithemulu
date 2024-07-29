@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import sketches from ".././assets/Hr Management Sketch.png"
-import flowChart from ".././assets/Hr Management flow diagram.png"
-import wireframe from ".././assets/Hr ManagementWireFrame.png"
-import lofi from ".././assets/Hr Management Lofidelity.png"
-import hifi from ".././assets/Hr Management High Fidelity.png"
-import designSystem from ".././assets/Hr Management Design System.png"
-import mockup from ".././assets/Hr Management MokeUp.png"
+import sketches from "../assets/HrManagementSketch.png"
+import flowChart from "../assets/HrManagementflowdiagram.png"
+import wireframe from "../assets/HrManagementWireFrame.png"
+import lofi from "../assets/HrManagementLofidelity.png"
+import hifi from "../assets/HrManagementHighFidelity.png"
+import designSystem from "../assets/HrManagementDesignSystem.png"
+import mockup from "../assets/HrManagementMokeUp.png"
 
 
 const HrManagement = () => {

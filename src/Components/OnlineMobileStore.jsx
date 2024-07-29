@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import hifi from ".././assets/OnlineMobileStore HighFidelity.png"
-import mockup from ".././assets/OnlineMobileStore Mokeup.png"
+import hifi from "../assets/OnlineMobileStoreHighFidelity.png"
+import mockup from "../assets/OnlineMobileStoreMokeUp.png";
+
 
 
 const OnlineMobileStore = () => {

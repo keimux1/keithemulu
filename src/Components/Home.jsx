@@ -1,17 +1,17 @@
-import profile from "../assets/Keimux Moke Up.png";
+import profile from "../assets/KeimuxMokeUp.png";
 import { Link } from "react-router-dom";
-import streamlineSample from "../assets/streamline sample .png";
-import DockvilleSample from "../assets/Dockville  sample.png";
-import EmployeeRewardApp from "../assets/Employee Reward App.png";
-import MOMO from "../assets/MOMO App MokeUp.png";
-import OnlineLib from "../assets/Online Book Library Mokeup.png";
-import Slider from "../assets/Slider Moke Up.png";
-import HrManagement from "../assets/Hr Management MokeUp landing.png";
-import BareFoot from "../assets/BareFoot Moke Up.png";
-import Rotation from "../assets/Rotation Animation.png";
-import MobileStore from "../assets/Online Mobile Store Moke Up.png";
-import Rockline from "../assets/Rockline Moke Up.png";
-import Wakelo from "../assets/Wakelo MokeUp.png";
+import streamlineSample from "../assets/streamlinesample.png";
+import DockvilleSample from "../assets/Dockvillesample.png";
+import EmployeeRewardApp from "../assets/EmployeeRewardApp.png";
+import MOMO from "../assets/MOMOAppMokeUp.png";
+import OnlineLib from "../assets/OnlineBookLibraryMokeup.png";
+import Slider from "../assets/SliderMokeUp.png";
+import HrManagement from "../assets/HrManagementMokeUplanding.png";
+import BareFoot from "../assets/BareFootMokeUp.png";
+import Rotation from "../assets/RotationAnimation.png";
+import MobileStore from "../assets/OnlineMobileStoreMokeUp.png";
+import Rockline from "../assets/RocklineMokeUp.png";
+import Wakelo from "../assets/WakeloMokeUp.png";
 
 const Home = () => {
   return (

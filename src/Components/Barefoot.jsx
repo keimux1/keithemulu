@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import hifi from ".././assets/BareFoot.png"
+import hifi from "../assets/BareFoot.png"
 
 
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import wireframe from ".././assets/Employee Wireframe.png"
-import lofi from ".././assets/Employee Lofi.png"
-import hifi from ".././assets/Employee Hifi.png"
-import designSystem from ".././assets/Design System.png"
-import mockup from ".././assets/Employee Mockups.png"
+import wireframe from "../assets/EmployeeWireframe.png"
+import lofi from "../assets/EmployeeLofi.png"
+import hifi from "../assets/EmployeeHifi.png"
+import designSystem from "../assets/DesignSystem.png"
+import mockup from "../assets/EmployeeMockups.png"
 
 
 const EmployeeReward = () => {
