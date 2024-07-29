@@ -19,7 +19,7 @@ const Home = () => {
 
       <section className="flex max-md:px-4  items-center justify-center">
         <div className="flex max-md:flex-col gap-10 justify-around max-md:items-center w-full max-w-6xl  md:px-8">
-          <div className="flex flex-col">
+          <div className="flex flex-col  justify-center">
             <div className="text-xl text-nowrap capitalize font-bold">
               Hi, I’m Keith
             </div>
@@ -137,8 +137,9 @@ const Home = () => {
             <div className="section-h">
               Background
             </div>
+
             <div className="flex gap-5 px-5 mt-5 text-xs font-normal capitalize text-gray-700 max-md:grid max-md:grid-cols-2 md:max-lg:grid md:max-lg:grid-cols-3 ">
-              <div className="flex flex-col flex-1 p-2 rounded-md bg-amber-100 hover:bg-amber-600 hover:drop-shadow-[0_2px_2px_rgba(255,213,79,0.25)] transition ease delay-150 duration-300 hover:text-amber-100">
+              <Link to="/RefactoryCertificate" className="flex flex-col flex-1 p-2 rounded-md bg-amber-100 hover:bg-amber-600 hover:drop-shadow-[0_2px_2px_rgba(255,213,79,0.25)] transition ease delay-150 duration-300 hover:text-amber-100">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4b25ce62659093b7f9d96da6252d6900518b30736cf828d6070d6d748254985e?apiKey=cf78a5e822724851b7bba55553a58bb2&"
@@ -147,7 +148,7 @@ const Home = () => {
                 <div className="mt-2">
                   Advanced Certificate In Best Software Practices
                 </div>
-              </div>
+              </Link>
 
               <div className="flex flex-col flex-1 p-2 rounded-md bg-amber-100 hover:bg-amber-600 hover:drop-shadow-[0_2px_2px_rgba(255,213,79,0.25)] transition ease delay-150 duration-300 hover:text-amber-100">
                 <img

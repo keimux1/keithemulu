@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="flex flex-col gap-6 justify-center p-8 bg-gray-300 max-md:px-5">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center ">
         <div className="text-xl font-bold text-center capitalize text-gray-950 max-md:max-w-full">
           You reached Here Great !
         </div>
       </div>
 
-      <div className="flex justify-between max-md:flex-col gap-8 ">
+      <div className="flex justify-between max-md:flex-col gap-8">
         <div className="flex flex-1 flex-col items-center text-base lowercase text-slate-800 gap-4">
           <div className=" font-bold capitalize text-center">
             Check Out My Socials{" "}

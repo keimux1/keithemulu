@@ -2,6 +2,7 @@ import './App.css'
 import CallToAction from "./components/CallToAction";
 import Laboremus from './components/Laboremus.jsx';
 import Cv from './components/Cv.jsx';
+import RefactoryCertificate from './components/RefactoryCertificate.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './components/Home.jsx';
 import Navbar from "./components/Navbar.jsx";
@@ -28,7 +29,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className='mt-14 max-md:mt-20 min-h-screen flex flex-col'>
+      <div className='mt-20 max-md:mt-20 min-h-screen flex flex-col'>
         <Navbar />
 
         <Routes  basename={process.env.NODE_ENV === 'development' ? '/' : '/repo-name/'}>
@@ -48,6 +49,7 @@ function App() {
           <Route path='/Rockline' element={<Rockline/>}></Route>
           <Route path='/Wakelo' element={<Wakelo />}></Route>
           <Route path='/Barefoot' element={<Barefoot />}></Route>
+          <Route path='/RefactoryCertificate' element={<RefactoryCertificate />}></Route>
         </Routes>
 
         <div className='mt-auto'>

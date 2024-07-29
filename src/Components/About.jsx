@@ -19,14 +19,14 @@ const About = () => {
           </p>
 
           <p className="mt-4">
-            Though I come from an electrical engineering background, I have always been enthusiastic about web technologies and design. 
+            Though I come from an electrical engineering background, I have always been enthusiastic about web technologies and design.
             My passion for user interface design stems from its pivotal role in shaping the web's face.
           </p>
 
           <p className="mt-4">
-          I specialize in front-end development, primarily working with JavaScript, HTML, and CSS, along with frameworks like React. 
-          Additionally, 
-          I have some experience in backend development, particularly with Node.js and MongoDB.
+            I specialize in front-end development, primarily working with JavaScript, HTML, and CSS, along with frameworks like React.
+            Additionally,
+            I have some experience in backend development, particularly with Node.js and MongoDB.
           </p>
 
         </div>
